@@ -1,5 +1,7 @@
 # twitch-picture-catcher
 
+Quick download: https://github.com/MaxFrolikov/twitch-picture-catcher/releases/download/tag/twitch-picture-catcher.zip
+
 Twitch viewers can use Channel Points to change the image or text, which you can set in OBS to update automatically.
 
 1. Set your channel-name in **config.json** file.
