@@ -12,3 +12,5 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 6. Save the config file and restart the app (now you can set **"fullLogging": false**)
 
 Types for img fit: https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
+
+if yous see "error: No response from Twitch." check your **channel-name** parameter 
