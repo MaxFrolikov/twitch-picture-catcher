@@ -1,6 +1,6 @@
 # twitch-picture-catcher
 
-Quick download: https://github.com/MaxFrolikov/twitch-picture-catcher/releases/download/tag/twitch-picture-catcher.zip
+Quick download: https://github.com/MaxFrolikov/twitch-picture-catcher/releases/download/win/twitch-picture-catcher-v1.0.1.zip
 
 Twitch viewers can use Channel Points to change the image or text, which you can set in OBS to update automatically.
 
