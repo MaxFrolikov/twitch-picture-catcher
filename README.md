@@ -37,7 +37,7 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 "imgType": "png",
 ```
 
-#### Height and width of resized
+#### Height and width of resized image
 ```
 "height": 800,			
 "width": 800,               
