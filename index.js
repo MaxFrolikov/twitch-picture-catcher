@@ -27,7 +27,8 @@ const preLog =`
 - imgFile: ${fileName}
 - resized: ${config.imgName}Resized.${config.imgType}
 - size: ${config.height } x ${config.width }
-- fit: ${config.fit }
+- fit: ${config.fit}
+- position: ${config.position}
 
 - fullLogging: ${config.fullLogging }
 `
@@ -71,6 +72,7 @@ client.on('message', (channel, tags, message, self) => {
 						height: config.height,
 						width: config.width,
 						fit: config.fit,
+						position: config.position,
 						background: {r: 0,g: 0,b: 0,alpha: 0}
 					})
 					.toFile(`${config.imgName}Resized.${config.imgType}`)

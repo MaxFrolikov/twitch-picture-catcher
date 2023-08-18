@@ -5,13 +5,14 @@
 	"txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
 
 	"txtName": "tempText",
-	"spaceCount": 3,			"_Number of spaces in the end of string": "number",
+	"spaceCount": 3,
 
 	"imgName": "tempImage",
-	"imgType": "png",			"_can-be": "png, jpg",
+	"imgType": "png",
 	"height": 800,
 	"width": 800,
-	"fit": "contain",			"_examples-fit": "https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg",
+	"fit": "contain",
+	"position": "centre",
 
 	"fullLogging": false
 }
