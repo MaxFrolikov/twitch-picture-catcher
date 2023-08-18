@@ -2,6 +2,8 @@
 
 Quick download: https://github.com/MaxFrolikov/twitch-picture-catcher/releases/download/twitch-picture-catcher-win/twitch-picture-catcher-v1.0.1.zip
 
+if yous see "ERROR: No response from Twitch." check your **channel-name** parameter 
+
 Twitch viewers can use Channel Points to change the image or text, which you can set in OBS to update automatically.
 
 1. Set your channel-name in **config.json** file.
@@ -11,6 +13,6 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 5. Paste it into **config.json** with the appropriate parameters (**"imgRewardId": "5b0a15c5-e4f9-49a7-81d6-ad49e30edd63"**) https://imgur.com/lPND0uQ
 7. Save the config file and restart the app (now you can set **"fullLogging": false**)
 
-Types for img fit: https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
+## config.json
 
-if yous see "error: No response from Twitch." check your **channel-name** parameter 
+Types for img fit: https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
