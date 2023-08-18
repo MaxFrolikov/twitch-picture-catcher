@@ -25,13 +25,13 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 "txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
 ```
 
-#### Name for .txt file and number of spaces added after text
+#### Name of the .txt file and number of spaces to added after the text
 ```
 "txtName": "tempText",
 "spaceCount": 3,
 ```
 
-#### Name for image file & file format (.png | .jpg)
+#### Image file name and file format (.png | .jpg)
 ```
 "imgName": "tempImage",
 "imgType": "png",
@@ -43,13 +43,13 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 "width": 800,               
 ```
 
-#### Fit-type for resized image
+#### Fit-type of the resized image
 - https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
 ```
 "fit": "contain",
 ```
 
-#### Fit-position for resized image
+#### Fit-position of the resized image
 - centre, top, right top, right, right bottom, bottom, left bottom, left, left top
 ```
 "position": "top left",
