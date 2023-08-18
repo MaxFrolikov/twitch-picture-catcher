@@ -58,4 +58,4 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 ```
 "fullLogging": false,
 ```
-Set "true" to resive all information about every message
+- Set "true" to resive all information about every message
