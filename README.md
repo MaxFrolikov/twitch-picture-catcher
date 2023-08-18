@@ -25,7 +25,7 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 "txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
 ```
 
-#### Name for .txt file and number of spaces after
+#### Name for .txt file and number of spaces added after text
 ```
 "txtName": "tempText",
 "spaceCount": 3,
