@@ -14,5 +14,23 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 7. Save the config file and restart the app (now you can set **"fullLogging": false**)
 
 ## config.json
+	"channel": "channel-name",
+       ^your channel name
+
+	"imgRewardId": "5b0a15c5-e4f9-49a7-81d6-ad49e30edd63",
+	"txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
+       ^IDs for image/text reward (see point 3-5)
+    
+	"txtName": "tempText",      Name for .txt file
+	"spaceCount": 3,
+
+	"imgName": "tempImage",     Name for image file
+	"imgType": "png",           File format for image (.png | .jpg)
+	"height": 800,              Height of resized image 
+	"width": 800,               Width of resized image
+	"fit": "contain",           Fit-type for resized image
+	"position": "top left",     Fit-position for resized image
+
+	"fullLogging": false        set "true" to resive all information about every message
 
 Types for img fit: https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
