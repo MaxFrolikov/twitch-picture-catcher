@@ -19,7 +19,7 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 "channel": "channel-name",
 ```
 
-#### IDs for image/text reward (see point 3-5)
+#### IDs for ther image/text reward (see point 3-5)
 ```
 "imgRewardId": "5b0a15c5-e4f9-49a7-81d6-ad49e30edd63",
 "txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
