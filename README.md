@@ -14,48 +14,48 @@ Twitch viewers can use Channel Points to change the image or text, which you can
 7. Save the config file and restart the app (now you can set **"fullLogging": false**)
 
 ## config.json
+#### Your channel name
 ```
 "channel": "channel-name",
 ```
-- Your channel name
 
+#### IDs for image/text reward (see point 3-5)
 ```
 "imgRewardId": "5b0a15c5-e4f9-49a7-81d6-ad49e30edd63",
 "txtRewardId": "ef301a90-6a62-48a3-b0f0-817176b0dd25",
 ```
-- IDs for image/text reward (see point 3-5)
 
+#### Name for .txt file and number of spaces after
 ```
 "txtName": "tempText",
 "spaceCount": 3,
 ```
-- Name for .txt file and number of spaces after
 
+#### Name for image file & file format (.png | .jpg)
 ```
 "imgName": "tempImage",
 "imgType": "png",
 ```
-- Name for image file & file format (.png | .jpg)
 
+#### Height and width of resized
 ```
 "height": 800,			
 "width": 800,               
 ```
-- Height and width of resized
 
+#### Fit-type for resized image
+- https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
 ```
 "fit": "contain",
 ```
-- Fit-type for resized image
-- https://cdn.jsdelivr.net/gh/lovell/sharp@main/docs/image/api-resize-fit.svg
 
+#### Fit-position for resized image
+- centre, top, right top, right, right bottom, bottom, left bottom, left, left top
 ```
 "position": "top left",
 ```
-- Fit-position for resized image
-- centre, top, right top, right, right bottom, bottom, left bottom, left, left top
 
+#### Set "true" to resive all information about every message 
 ```
 "fullLogging": false,
 ```
-- Set "true" to resive all information about every message
